@@ -1,0 +1,68 @@
+{
+  "TYPE" : "Workflow",
+  "version" : "1.8.0",
+  "timeZone" : "Etc/UTC",
+  "instructions" : [ {
+    "TYPE" : "Try",
+    "try" : {
+      "instructions" : [ {
+        "TYPE" : "Lock",
+        "lockedWorkflow" : {
+          "instructions" : [ {
+            "TYPE" : "Execute.Named",
+            "jobName" : "job1",
+            "label" : "job1"
+          }, {
+            "TYPE" : "PostNotices",
+            "noticeBoardNames" : [ "GIT-NoticeBoard-2-JS7" ]
+          } ]
+        },
+        "demands" : [ {
+          "lockName" : "GIT-ResourceLock-JS7"
+        } ]
+      }, {
+        "TYPE" : "Execute.Named",
+        "jobName" : "job2",
+        "label" : "job2"
+      } ]
+    },
+    "catch" : {
+      "instructions" : [ {
+        "TYPE" : "Finish",
+        "unsuccessful" : true
+      } ]
+    }
+  } ],
+  "jobs" : {
+    "job1" : {
+      "agentName" : "LinuxAgent",
+      "withSubagentClusterIdExpr" : false,
+      "executable" : {
+        "TYPE" : "ShellScriptExecutable",
+        "script" : "echo \"Hello\"",
+        "v1Compatible" : false
+      },
+      "skipIfNoAdmissionForOrderDay" : false,
+      "parallelism" : 1,
+      "graceTimeout" : 1,
+      "failOnErrWritten" : false,
+      "warnOnErrWritten" : false,
+      "isNotRestartable" : false
+    },
+    "job2" : {
+      "agentName" : "LinuxAgent",
+      "withSubagentClusterIdExpr" : false,
+      "executable" : {
+        "TYPE" : "ShellScriptExecutable",
+        "script" : "echo \"Hello\"",
+        "v1Compatible" : false
+      },
+      "skipIfNoAdmissionForOrderDay" : false,
+      "parallelism" : 1,
+      "graceTimeout" : 1,
+      "failOnErrWritten" : false,
+      "warnOnErrWritten" : false,
+      "isNotRestartable" : false
+    }
+  }
+}

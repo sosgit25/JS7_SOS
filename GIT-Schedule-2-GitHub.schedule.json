@@ -1,0 +1,15 @@
+{
+  "version" : "1.8.0",
+  "workflowNames" : [ "GIT-Workflow-2-JS7" ],
+  "submitOrderToControllerWhenPlanned" : false,
+  "planOrderAutomatically" : false,
+  "calendars" : [ {
+    "calendarName" : "GIT-Calendar-JS7",
+    "timeZone" : "Etc/UTC",
+    "periods" : [ {
+      "singleStart" : "20:00:00",
+      "whenHoliday" : "SUPPRESS"
+    } ]
+  } ],
+  "orderParameterisations" : [ ]
+}
