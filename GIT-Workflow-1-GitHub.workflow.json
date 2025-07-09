@@ -2,7 +2,7 @@
   "TYPE" : "Workflow",
   "version" : "1.8.0",
   "timeZone" : "Etc/UTC",
-  "jobResourceNames" : [ "GIT-Job-Resource-1-JS7" ],
+  "jobResourceNames" : [ "GIT-Job-Resource-1-GitHub" ],
   "instructions" : [ {
     "TYPE" : "Try",
     "try" : {
@@ -16,11 +16,11 @@
           } ]
         },
         "demands" : [ {
-          "lockName" : "GIT-ResourceLock-JS7"
+          "lockName" : "GIT-ResourceLock-GitHub"
         } ]
       }, {
         "TYPE" : "ExpectNotices",
-        "noticeBoardNames" : "'GIT-NoticeBoard-1-JS7'",
+        "noticeBoardNames" : "'GIT-NoticeBoard-1-GitHub'",
         "whenNotAnnounced" : "Wait"
       }, {
         "TYPE" : "Execute.Named",
@@ -28,7 +28,7 @@
         "label" : "job2"
       }, {
         "TYPE" : "PostNotices",
-        "noticeBoardNames" : [ "GIT-NoticeBoard-2-JS7" ]
+        "noticeBoardNames" : [ "GIT-NoticeBoard-2-GitHub" ]
       }, {
         "TYPE" : "Execute.Named",
         "jobName" : "job1_copy_1",
@@ -48,7 +48,7 @@
       "withSubagentClusterIdExpr" : false,
       "executable" : {
         "TYPE" : "ShellScriptExecutable",
-        "script" : "##!include GIT-ScriptInclude-JS7 ",
+        "script" : "##!include GIT-ScriptInclude-GitHub ",
         "v1Compatible" : false
       },
       "skipIfNoAdmissionForOrderDay" : false,
@@ -87,7 +87,7 @@
       "failOnErrWritten" : false,
       "warnOnErrWritten" : false,
       "jobTemplate" : {
-        "name" : "GIT-Job-Template-JS7",
+        "name" : "GIT-Job-Template-GitHub",
         "hash" : "d8058a4593b3e63a111ea0ebc7363e99a428dd52bff35352882379c4ed1301ff"
       },
       "isNotRestartable" : false

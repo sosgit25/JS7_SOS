@@ -3,7 +3,7 @@
   "templateName" : "WORKFLOWS_FREQUENTLY_FAILED",
   "frequencies" : [ "WEEKLY" ],
   "hits" : 10,
-  "monthFrom" : "2025-01",
+  "monthFrom" : "GitHub-01",
   "period" : {
     "length" : 5,
     "step" : 5
