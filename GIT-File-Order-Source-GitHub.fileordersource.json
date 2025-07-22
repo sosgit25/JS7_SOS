@@ -1,0 +1,10 @@
+{
+  "TYPE" : "FileWatch",
+  "version" : "1.8.0",
+  "workflowName" : "GIT-Workflow-FileOrderSource-GitHub",
+  "agentName" : "LinuxAgent",
+  "directoryExpr" : "'\\data'",
+  "pattern" : ".*",
+  "timeZone" : "Etc/UTC",
+  "delay" : 2
+}
