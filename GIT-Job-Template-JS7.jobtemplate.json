@@ -6,12 +6,11 @@
     "v1Compatible" : false
   },
   "skipIfNoAdmissionForOrderDay" : false,
-  "killAtEndOfAdmissionPeriod" : false,
   "parallelism" : 1,
   "graceTimeout" : 1,
   "failOnErrWritten" : false,
   "warnOnErrWritten" : false,
   "arguments" : { },
-  "hash" : "e41eeb98266fa165c9b10675411d3947a2fd6f775b5d6c3a0b80b4ebc6649560",
+  "hash" : "222242ab3ec7142e9e8d44c3ab5d9c0e0e5fb7d4a6304ef0985a32a1085fce1f",
   "isNotRestartable" : false
 }
