@@ -1,16 +1,17 @@
 {
-  "version" : "1.8.0",
+  "version" : "1.8.2",
   "executable" : {
     "TYPE" : "ShellScriptExecutable",
-    "script" : "echo \"18-10-2025\"",
+    "script" : "echo \"19-10-2025\"",
     "v1Compatible" : false
   },
   "skipIfNoAdmissionForOrderDay" : false,
+  "killAtEndOfAdmissionPeriod" : false,
   "parallelism" : 1,
   "graceTimeout" : 1,
   "failOnErrWritten" : false,
   "warnOnErrWritten" : false,
   "arguments" : { },
-  "hash" : "207044fb364a8cc25a4958d668c75153432999800d00b49fd915690078524287",
+  "hash" : "46f4037d4608f4f18ae02a5aed1a798280431780e58c211807632696792cb33e",
   "isNotRestartable" : false
 }
