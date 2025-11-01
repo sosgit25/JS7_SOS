@@ -1,7 +1,7 @@
 {
   "TYPE" : "JobResource",
-  "version" : "1.8.0",
+  "version" : "1.8.2",
   "arguments" : {
-    "NAME" : "\"31-10-2025\""
+    "NAME" : "\"01-11-2025\""
   }
 }
