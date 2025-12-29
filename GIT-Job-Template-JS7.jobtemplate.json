@@ -2,7 +2,7 @@
   "version" : "1.8.3",
   "executable" : {
     "TYPE" : "ShellScriptExecutable",
-    "script" : "echo \"28-12-2025\"",
+    "script" : "echo \"29-12-2025\"",
     "v1Compatible" : false
   },
   "skipIfNoAdmissionForOrderDay" : false,
@@ -12,6 +12,6 @@
   "failOnErrWritten" : false,
   "warnOnErrWritten" : false,
   "arguments" : { },
-  "hash" : "2121a61286cafd430cb8d3fc8e5e8ebce1e7053276042aaf03e3c2e0568cfa5d",
+  "hash" : "b9c47d1861de8c5bfe543d34d93cac38bc474ca4a63c901943d7dc5cc8027539",
   "isNotRestartable" : false
 }
