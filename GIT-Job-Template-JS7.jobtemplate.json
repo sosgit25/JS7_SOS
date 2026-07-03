@@ -1,5 +1,5 @@
 {
-  "version" : "1.8.4",
+  "version" : "1.9.0",
   "executable" : {
     "TYPE" : "ShellScriptExecutable",
     "script" : "echo \"03-07-2026\"",
@@ -12,6 +12,6 @@
   "failOnErrWritten" : false,
   "warnOnErrWritten" : false,
   "arguments" : { },
-  "hash" : "8a8ebf155dd3f7fcfd28decac010fe88e5931ffe91dcf9e2ad765bbd88e8ccbb",
+  "hash" : "004c932be80cadcd4e06001dddac01350467951783a163c27baff5bd120a2234",
   "isNotRestartable" : false
 }
