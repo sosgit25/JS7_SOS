@@ -1,6 +1,6 @@
 {
   "TYPE" : "JobResource",
-  "version" : "1.9.0",
+  "version" : "1.8.4",
   "arguments" : {
     "NAME" : "\"11-07-2026\""
   }
